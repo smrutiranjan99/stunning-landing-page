@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+    max-width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Slab', serif;
+}
+.menu{
+    margin: 10px 0px 60px 0px;
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.menu ul li{
+    padding: 12px 0px;
+    margin: 0px 35px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(125, 125, 125);
+    font-weight: 500;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid blue;
+}
+#active{
+    color: black;
+    border-bottom: 2px solid blue;
+}
+#your-account{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 12px 20px;
+    background-color: #FFD8DB;
+    border-radius: 25px;
+}
+#your-account a{
+    color: #8071D0;
+}
+#your-account a:hover{
+    border-bottom: 0px solid white;
+}
+.logo img{
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around
+}
+.container .container1{
+    padding: 20px 80px 20px 120px;
+}
+.container1 h1{
+    font-size: 100px;
+    margin: 0px;
+    font-weight: 700;
+}
+.container1 h1 span{
+    color: blue;
+}
+.container .container2{
+    text-align: center;
+    padding: 10px;
+}
+.container2 img{
+    width: 900px;
+}
+.para p{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 400;
+}
+.account{
+    margin: 10px 0px 60px 0px;
+}
+.account ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+.account ul li{
+    margin: 10px 20px;
+}
+.account ul li img{
+    height: 56px;
+}
+#my-account a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 18px 22px;
+    background-color: #5243C0;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.card{
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgba(224, 224, 224, 0.783);
+}
+.card .img{
+    width: 10%;
+}
+.card .text{
+    width: 30%;
+    color: black;
+    font-size: 18px;
+}
+.card .date{
+    width: 20%;
+    color: rgb(103, 103, 103);
+    font-size: 18px;
+}
+.card1 .none{
+    width: 4%;
+    padding: 7px 3px;
+    background-color: #FED7DA;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1px;
+}
+.card1 .none a{
+    font-size: 1px;
+    text-decoration: none;
+    color: #FED7DA;
+}
+.card2 .none{
+    width: 4%;
+    padding: 7px 3px;
+    background-color: #FD6534;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1px;
+}
+.card2 .none a{
+    font-size: 1px;
+    text-decoration: none;
+    color: #FD6534;
+}
+.card3 .none{
+    width: 4%;
+    padding: 7px 3px;
+    background-color: #9ED095;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1px;
+}
+.card3 .none a{
+    font-size: 1px;
+    text-decoration: none;
+    color: #9ED095;
+}
+.card4 .none{
+    width: 4%;
+    padding: 7px 3px;
+    background-color: #FEE4A0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1px;
+}
+.card4 .none a{
+    font-size: 1px;
+    text-decoration: none;
+    color: #FEE4A0;
+}
+.card:hover{
+    background-color: #ffffff;
+    box-shadow: 1px 2px 2px rgba(210, 208, 208, 0.537);
+}
